@@ -694,6 +694,106 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+
+/*--------------------------------------------------------------
+# Committees Section
+--------------------------------------------------------------*/
+
+#committees {
+  padding: 60px 0 30px 0;
+}
+
+#committees .speaker {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#committees .speaker .details {
+  background: rgba(6, 12, 34, 0.76);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#committees .speaker .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#committees .speaker .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#committees .speaker .details .social {
+  height: 30px;
+}
+
+#committees .speaker .details a {
+  color: #fff;
+}
+
+#committees .speaker .details a:hover {
+  color: #f82249;
+}
+
+#committees .speaker:hover .details {
+  bottom: 0;
+}
+
+#committees-details {
+  padding: 60px 0;
+}
+
+#committees-details .details h2 {
+  color: #112363;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#committees-details .details .social {
+  margin-bottom: 15px;
+}
+
+#committees-details .details .social a {
+  background: #e9edfb;
+  color: #112363;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding-top: 9px;
+}
+
+#committees-details .details .social a:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+#committees-details .details .social a i {
+  font-size: 18px;
+}
+
+#committees-details .details p {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+
+
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
