@@ -1056,6 +1056,72 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Transport Section
+--------------------------------------------------------------*/
+
+#transport {
+  padding: 60px 0;
+}
+
+#transport .container-fluid {
+  margin-bottom: 3px;
+}
+
+#transport .transport-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+}
+
+#transport .transport-info {
+  background: url("../img/airport.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#transport .transport-info:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#transport .transport-info h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#transport .transport-info p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+#transport .transport-gallery-container {
+  padding-right: 12px;
+}
+
+#transport .transport-gallery {
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+#transport .transport-gallery img {
+  transition: all ease-in-out 0.4s;
+}
+
+#transport .transport-gallery:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
 # Hotels Section
 --------------------------------------------------------------*/
 
