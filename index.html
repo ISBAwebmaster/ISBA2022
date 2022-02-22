@@ -25,7 +25,7 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css?version=33" rel="stylesheet" type="text/css">
+  <link href="css/style.css?version=34" rel="stylesheet" type="text/css">
 
   <!-- =======================================================
     Theme Name: TheEvent
@@ -367,184 +367,729 @@
 
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
+            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Sunday -- 6/26</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
+            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Monday -- 6/27</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Day 3</a>
+            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Tuesday -- 6/28</a>
           </li>
                       <li class="nav-item">
-            <a class="nav-link" href="#day-4" role="tab" data-toggle="tab">Day 4</a>
+            <a class="nav-link" href="#day-4" role="tab" data-toggle="tab">Wednesday -- 6/29</a>
           </li>
                       <li class="nav-item">
-            <a class="nav-link" href="#day-5" role="tab" data-toggle="tab">Day 5</a>
+            <a class="nav-link" href="#day-5" role="tab" data-toggle="tab">Thursday -- 6/30</a>
           </li>
                       <li class="nav-item">
-            <a class="nav-link" href="#day-6" role="tab" data-toggle="tab">Day 6</a>
+            <a class="nav-link" href="#day-6" role="tab" data-toggle="tab">Friday -- 7/1</a>
           </li>
-                      </li>
-                      <li class="nav-item">
-            <a class="nav-link" href="#day-7" role="tab" data-toggle="tab">Day 7</a>
-          </li>
+         </li>
         </ul>
 
-        <h3 class="sub-heading">Please check back as the conference gets closer.</h3>
+       <h3 class="sub-heading">        <a href="docs/ISBA_Schedule.pdf">Click here for a downloadable schedule.</a>
+</h3>
 
         <div class="tab-content row justify-content-center">
 
-          <!-- Schdule Day 1 
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>09:30 AM</time></div>
+              <div class="col-md-2"><time>9:00 AM</time></div>
+              <div class="col-md-10">
+                    <a data-toggle="collapse" class="collapsed" href="#shortcourses"><font size="+1"><b>Start of Short Courses</b> </font></a>
+                  <div id="shortcourses" class="collapse" data-parent="#faq-list">
+                    <p>
+	                   <br><b>Introduction to Bayesian Methods for Clinical Trial Design and Sample Size Determination</b> <br>
+                        <b>Instructors:</b> Matthew A. Psioda & Joseph G. Ibrahim (UNC Chapel Hill)<br>
+                        <b>Abstract:</b> This short course is designed to give biostatisticians and data scientists a comprehensive overview of the use of Bayesian methods for clinical trial design and training on how these methods can be implemented using standard software. Specially, applications of methodology will be demonstrated using R, SAS or both. Part I will give a broad overview of Bayesian sample size determination with a focus on fixed sample size trials either in the phase II or the phase III setting. Focus is paid to four concepts that govern sample size determination: (1) the sampling prior that reflects knowledge about the parameter(s) in the data model, (2) the fitting prior used to analyze data once collected, (3) the criterion used as the basis of sample size determination, and (4) the strategy for monitoring, if the trial will include one or more interim analyses. For (3), a comprehensive review of Bayesian criterion for sample size determination will be given, covering such topics as Bayesian type I error rate control and power, average coverage criterion, average length criterion, and worst outcome criterion.  For (4) multiple strategies will be discussed for monitoring accumulating data, including using predictive probability of success and sequential methods. Part II will focus broadly on advanced Bayesian trial designs that incorporate information borrowing. The types of designs considered fall into two broad categories: (1) designs that borrow information through the use of an informative prior specified a priori based on one or more historical datasets, and (2) designs that seek to borrow information across subgroups within a trial. Example designs of type (1) include trials where the goal may be to show that a next-generation medical device (e.g., a coronary stent) is non-inferior or superior to a previous generation of the same device, and designs that seek to extrapolate information on treatment efficacy from adult trials to the pediatric setting. Example designs of type (2) include basket trials where the goal is to make inferences regarding treatment activity for different tumor types in patients whose tumor has a genetic marker targeted by the investigational treatment.<br>
+                    </p>
+                    <p>
+	                   <br><b>Bayesian Modelling of Epidemics: From Population to Individual-level Models</b> <br>
+                        <b>Instructors:</b> Rob Deardon & Caitlin Ward (University of Calgary)<br>
+                        <b>Abstract:</b> With the ongoing COVID-19 pandemic, there has been an understandable increase in the interest in the mathematical and statistical modelling of infectious disease epidemics. Inference for mechanistic models is made more complicated by the fact that we often have latent variables (e.g., infection times). Additionally, we often have complex heterogeneities in the population we wish to account for, since, for example, populations do not tend to mix homogeneously. This often leads to a need for spatial and/or network-based models. The Bayesian framework is ideal for such complex systems, as well as prediction from the models.<br>
+
+                        In this workshop, we will examine characteristics of, and inference for, such infectious disease models starting with the classic SIR ODE-based model, and expanding into individual-level models. The workshop will include instruction on the use of the R packages, “deSolve”, “adaptMCMC” “EpiILM” and "EpiILMCT”, to implement models and inferential methods.<br>
+                    </p>
+                    <p>
+	                   <br><b>Bayesian multivariate time series analysis for environmental science and neuroscience
+
+</b> <br>
+                        <b>Instructors:</b> Raquel Prado (University of California - Santa Cruz), Marco Ferreira (Virginia Tech)<br>
+                        <b>Abstract:</b> This course covers principles and methods of Bayesian dynamic modeling, focusing on multivariate time series analysis and forecasting, with methodological details of central model classes explored in a range of applications to neuroscience and environmental science. A key focus is on dynamic linear models - structure, inference, forecasting — including stationary and non-stationary time series. Starting with examples of univariate time series analysis, the course extends to linked systems of univariate series defining specific classes of multivariate models, and goes further in multivariate contexts with dynamic factor models and dynamic spatial factor models. Aspects of simulation-based computation—forward simulation for forecasting, direct, approximate and simulation-based forward-backward analysis of state-space models, and MCMC methods for models with parameters and latent states going beyond the linear/Gaussian framework—are included. The course draws on a range of examples such as analysis of troposphere temperature data, multi-channel brain signal analysis, and analysis of brain imaging data.
+                    </p>
+                    <p>
+	                   <br><b>Using R for Bayesian Spatial and spatio-temporal health modeling</b> <br>
+                        <b>Instructor:</b> Andrew B Lawson (Medical University of South Carolina)<br>
+                        <b>Abstract:</b> R is commonly use now for advanced Biostatistical applications. Bayesian spatial and spatio-temporal modeling of health data is an important topic which can be addressed using tools in R.  This course is designed for those who want to cover mapping methods, and the use of a variety of software and variants in application to small area health data.  The course will include theoretical input, covering selected  Bayesian spatial models, but also practical elements and participants will be involved in hands-on in the use of R, BRugs, Nimble, and CARBayes in disease mapping applications. Both spatial health examples will be covered in the course as well as simple space-time modelling. Examples will range over county level respiratory cancer incidence (spatial and spatio-temporal) and Covid-19 space-time modeling in US states.  The course would be suitable for those with some R experience, but who have limited experience of spatial modeling in health applications.
+                    </p>
+                    <p>
+	                   <br><b>Introduction to Bayesian Nonparametric methods for causal inference</b> <br>
+                        <b>Instructors:</b> Michael Daniels (University of Florida), Antonio Linero (University Texas Austin), Jason Roy (Rutgers School of Public Health)<br>
+                        <b>Abstract:</b> Bayesian nonparametric (BNP) methods can be used to flexibly model joint or conditional distributions, as well as functional relationships. These methods, along with causal assumptions, can be used with the g-formula for inference about causal effects. This general approach to causal inference has several possible advantages over popular semiparametric methods, including efficiency gains, the ease of causal inference on any functionals of the distribution of potential outcomes, the use of prior information, and capturing uncertainty about causal assumption via informative prior distributions. In this workshop we review BNP methods and illustrate their use for causal inference in the setting of point treatments, mediation, and semi-competing risks. We present several data examples and discuss software implementation using R.  The R code and/or packages used to run the data examples will be provided to the attendees at a specific github site.
+                    </p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>5:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>End of Short Courses</h4>
+              </div>
+            </div>
+          </div>
+
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+          <div class="row schedule-item">
+              <div class="col-md-2"><time>8:00 AM</time></div>
               <div class="col-md-10">
                 <h4>Registration</h4>
-                <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
+              
+          <div class="row schedule-item">
+              <div class="col-md-2"><time>9:00 AM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/1.jpg" alt="Brenden Legros">
-                </div>
-                <h4>Keynote <span>Brenden Legros</span></h4>
-                <p>Facere provident incidunt quos voluptas.</p>
+                <h4>Opening Address</h4>
               </div>
             </div>
-
-            <div class="row schedule-item">
+              
+         <div class="row schedule-item">
+              <div class="col-md-2"><time>9:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Foundational Lecture</h4>
+                <p>Speaker: Adrian Raferty</p>
+              </div>
+            </div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Coffee Break</h4>
+              </div>
+            </div>
+              
+        <div class="row schedule-item">
               <div class="col-md-2"><time>11:00 AM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/2.jpg" alt="Hubert Hirthe">
-                </div>
-                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+                <h4>Foundational Lecture</h4>
+                <p>Speaker: Steffen Lauritzen</p>
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 AM</time></div>
+        
+                      <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 PM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/3.jpg" alt="Cole Emmerich">
-                </div>
-                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+                <h4>Lunch Break</h4>
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>02:00 PM</time></div>
+              
+                      <div class="row schedule-item">
+              <div class="col-md-2"><time>1:30 PM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/4.jpg" alt="Jack Christiansen">
-                </div>
-                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+                                  <a data-toggle="collapse" class="collapsed" href="#parallelsessions1"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions1" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	New frontiers in Bayesian graphical and network models</b> <br>
+                            -	Abhirup Datta (Johns Hopkins University)<br>
+                            -	Mark Coates (McGill University)<br>
+                            -	Anindya Bhadra (Purdue University)<br>
+                            -   Yuguo Chen (discussant, University of Illinois)<br><br>
+                        <b>	Advances in Approximate Bayesian Computation</b> <br>
+                            -	Cecilia Viscardi (University of Florida)<br>
+                            - 	Sirio Legramanti (Bocconi University)<br>
+                            - 	Massimiliano Tamborino (University of Warwick)<br><br>
+                        <b>	Perspectives on prior influence and sensitivity </b> <br>
+                            -	Xiao-Li Meng (Harvard University)<br>
+                            -	Will Stephenson (MIT)<br>
+                            -	Noa Kallioinen (Aalto University)<br><br>
+                        <b>	Flexible dependence structures in Bayesian nonparametrics</b> <br>
+                            -	Beatrice Franzolini (Bocconi U)<br>
+                            -	Michele Guindani (UC Irvine)<br>
+                            -	Steve N. MacEachern (Ohio State U)<br>
+                    </p>
+                  </div>  
+                  
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>03:00 PM</time></div>
+              
+                      <div class="row schedule-item">
+              <div class="col-md-2"><time>3:00 PM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/5.jpg" alt="Alejandrin Littel">
-                </div>
-                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+                <h4>Coffee Break</h4>
               </div>
             </div>
 
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>04:00 PM</time></div>
+                                    <div class="row schedule-item">
+              <div class="col-md-2"><time>3:30 PM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/6.jpg" alt="Willow Trantow">
-                </div>
-                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+                <a data-toggle="collapse" class="collapsed" href="#parallelsessions2"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions2" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	Advances in Bayesian Computation and its Applications</b> <br>
+                            - Tamara Broderick (Massachusetts Institute of Technology) <br>
+                            - Sally Cripps (University of Sydney and CSIRO)<br>
+                            - Robert Kohn (University of New South Wales)<br><br>
+                        <b>	Bayesian approaches for complex problems in causal inference</b> <br>
+                            -	Arman Oganisian (Brown University)<br>
+                            -	Joey Antonelli (University of Florida)<br>
+                            -	Samrat Roy (University of Pennsylvania)<br><br>
+                        <b>	New developments in Bayesian econometric methods and applications</b> <br>
+                            -	Sylvia Frühwirth-Schnatter (Vienna University of Economics and Business)<br>
+                            -	 Sylvia Kaufmann (Study Center Gerzensee)<br>
+                            -	 Herman K. van Dijk (Erasmus University Rotterdam)<br><br>
+                        <b>	Bayesian structure learning in complex settings</b> <br>
+                            -	Reza Mohammadi (University of Amsterdam)<br>
+                            -	Francesco Claudio Stingo (Università degli Studi di Firenze)<br>
+                            -	Stefano Peluso (Università degli Studi di Milano-Bicocca)<br>
+                    </p>
+                  </div>               </div>
+            </div>
+              
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>5:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Coffee Break</h4>
+              </div>
+            </div>
+              
+                             <div class="row schedule-item">
+              <div class="col-md-2"><time>5:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>Foundational Lecture</h4>
+                <p>Speaker: Nancy Reid</p>
               </div>
             </div>
 
+                                   <div class="row schedule-item">
+              <div class="col-md-2"><time>6:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>Foundational Lecture</h4>
+                <p>Speaker: Subhashis Ghosal</p>
+              </div>
+            </div>
+              
+                                 <div class="row schedule-item">
+              <div class="col-md-2"><time>7:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>Welcome Reception Starts</h4>
+              </div>
+            </div>
+                                 <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>Welcome Reception Ends</h4>
+              </div>
+            </div>
           </div>
-           End Schdule Day 1 -->
 
-          <!-- Schdule Day 2
-          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
-
-            <div class="row schedule-item">
+            
+<div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+          <div class="row schedule-item">
+              <div class="col-md-2"><time>8:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Registration</h4>
+              </div>
+            </div>
+              
+          <div class="row schedule-item">
+              <div class="col-md-2"><time>9:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Keynote Talk</h4>
+                <p>Speaker: Richard Nickl</p>
+              </div>
+            </div>
+              
+         <div class="row schedule-item">
               <div class="col-md-2"><time>10:00 AM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/1.jpg" alt="Brenden Legros">
-                </div>
-                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-                <p>Facere provident incidunt quos voluptas.</p>
+                <h4>Coffee Break</h4>
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM</time></div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/2.jpg" alt="Hubert Hirthe">
-                </div>
-                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+                <h4>De Finetti Lecture</h4>
+                <p>Speaker: Mike West</p>
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 AM</time></div>
+        
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 PM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/3.jpg" alt="Cole Emmerich">
-                </div>
-                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+                <h4>Lunch Break</h4>
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>02:00 PM</time></div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>1:30 PM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/4.jpg" alt="Jack Christiansen">
-                </div>
-                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+                <a data-toggle="collapse" class="collapsed" href="#parallelsessions3"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions3" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	Recent Development on Bayesian Information and Data Comparability</b> <br>
+                            -	Yu-Bo Wang (Clemson University)<br>
+                            -	Lynn Kuo (University of Connecticut)<br>
+                            -	Ming-Hui Chen (University of Connecticut)<br><br>
+                        <b>	Inverse Problems: Practical Applications and Challenges for Bayesian Methods</b> <br>
+                            -	Jonas Latz (Heriot-Watt University)<br>
+                            -	Matthew Berry (University of Wollongong) <br>
+                            -	Lassi Roininen (Lappeenranta-Lahti University of Technology)<br><br>
+                        <b>	Optimal transport meets Bayes [Endorsed by: Bayesian Nonparametrics Section]</b> <br>
+                            -	Marta Catalano (University of Warwick)<br>
+                            -	Stephen Walker (University of Texas at Austin)<br>
+                            -	Nhat Ho (University of Texas at Austin)<br>
+                            -	Noa Kallioinen (Aalto University)<br><br>
+                        <b>	Junior advances in Bayesian treed regression</b> <br>
+                            -	Vittorio Orlandi (Duke University)<br>
+                            -	Akira Horiguchi (Duke University)<br>
+                            -	Sameer Deshpande (University of Wisconsin--Madison)<br>
+                            -   Matthew Pratola (discussant, The Ohio State University)<br><br>
+                        <b> Advances in Bayesian methods for complex data</b> <br>
+                            -	Bora Jin (Duke University)<br>
+                            -	Francesco Denti (University of California, Irvine)<br>
+                            -	Gabriel Hassler (University of California, Los Angeles)<br>
+                            -	Giovanni Parmigiani (Harvard University)<br>
+                    </p>
+                  </div> 
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>03:00 PM</time></div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>3:00 PM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/5.jpg" alt="Alejandrin Littel">
-                </div>
-                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+                <h4>Coffee Break</h4>
               </div>
             </div>
 
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>04:00 PM</time></div>
+         <div class="row schedule-item">
+              <div class="col-md-2"><time>3:30 PM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/6.jpg" alt="Willow Trantow">
-                </div>
-                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+                <a data-toggle="collapse" class="collapsed" href="#parallelsessions4"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions4" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	New Advances in Design and Analysis of Bayesian Causal Inference</b> <br>
+                            -	Joseph Hogan (Brown University)<br>
+                            -	Xinyi Xu (Ohio State University)<br>
+                            -	Corwin Zigler (University of Texas at Austin)<br>
+                            -	Fan Li (discussant, Duke University)<br><br>
+                        <b>	Bayesian methods for complex dependent data with application to education and psychology</b> <br>
+                            -	Steven Culpepper (University of Illinois at Urbana-Champaign)<br>
+                            -	Jean-Paul Fox (University of Twente)<br>
+                            -	Xiaojing Wang (University of Connecticut)<br><br>
+                        <b>	Sampling state-of-the-arts in Bayesian computation for large-scale applications [Endorsed by: Bayesian Computation Section]</b> <br>
+                            -	Kelly Moran (Los Alamos National Lab)<br>
+                            -	Akihiko Nishimura (Johns Hopkins University)<br>
+                            -	Saifuddin Syed (University of British Columbia)<br><br>
+                        <b>	Bayesian Workflow </b> <br>
+                            -	Ingeborg Hem (NTNU)<br>
+                            -	Jessica Hullman (Northwestern University)<br>
+                            -	Suchi Saria (John Hopkins University)<br>
+                            -	Dan Simpson (discussant, Monash University)<br><br>
+                        <b> Advances in Bayesian factor models </b> <br>
+                            - Daniel Kowal (Rice University)<br>
+                            - Daniele Durante (Bocconi)<br>
+                            -  	Claire Gormley (University College Dublin)<br>
+                    </p>              
+                  </div>
+            </div>
+    </div>
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>7:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Poster Sessions</h4>
               </div>
             </div>
-
+              
           </div>
-           End Schdule Day 2 -->
+            
+            
+<div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-4">
+          <div class="row schedule-item">
+              <div class="col-md-2"><time>8:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Registration</h4>
+              </div>
+            </div>
+              
+          <div class="row schedule-item">
+              <div class="col-md-2"><time>9:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Keynote Talk</h4>
+                <p>Speaker: Francesca Dominici</p>
+              </div>
+            </div>
+              
+         <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Coffee Break</h4>
+              </div>
+            </div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
+              <div class="col-md-10">
+                <a data-toggle="collapse" class="collapsed" href="#parallelsessions5"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions5" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	Bayesian Concepts and Models for Multi-omics and Multi-study Analyses [Endorsed by: Biostatstics and Pharmaceutical Statistics Section]</b> <br>
+                            -	Barbara Engelhardt (Princeton University)<br>
+                            -	Isabella Grabski (Harvard University)<br>
+                            -	Veera Baladandayuthapani (University of Michigan)<br><br>
+                        <b>	Bayesian Penalized Likelihood-Based Methods for High-dimensional Precision Matrices and Graphs</b> <br>
+                            -	Tyler McCormick (eUniversity of Washington)<br>
+                            -	Jyotishka Datta (Virginia Tech University)<br>
+                            -	Noirrit K. Chandra (University of Texas at Austin)<br>
+                            -	Nilabja Guha (discussant, University of Massachusetts)<br><br>
+                        <b>	On the uses of random discrete structures for mixture modeling and clustering</b> <br>
+                            -	Li Ma (Duke U)<br>
+                            -	Giovanni Rebaudo (UT Austin)<br>
+                            -	Yanxun Xu (Johns Hopkins U)<br><br>
+                        <b>	Highlights in Bayesian Analysis: Impact and Challenges in Applications[Bayesian Analysis invited session]</b> <br>
+                            -	Sara Wade (University of Edinburgh)<br>
+                            -	Guilherme Oliveira (Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG))<br><br>
+                        <b> Recent Advances in Variational Inference Methods</b> <br>
+                            -	Michael Stanley Smith (Melbourne Business School, University of Melbourne)<br>
+                            -	David Nott (National University of Singapore)<br>
+                            -	Linda Tan (National University of Singapore)<br>
+                            -	Catherine Forbes (discussant, Monash University)<br>
+                    </p>
+                  </div>              
+            </div>
+            </div>
+        
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Lunch Break</h4>
+              </div>
+            </div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>1:30 PM</time></div>
+              <div class="col-md-10">
+                <a data-toggle="collapse" class="collapsed" href="#parallelsessions6"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions6" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	Fast Variational Bayes approaches for high-dimensional problems</b> <br>
+                            -	David Gunawan (University of Wollongong)<br>
+                            -	Luca Maestrini (University Technology Sydney)<br>
+                            -	Minh-Ngoc Tran (University of Sydney)<br><br>
+                        <b>	Perspectives on genelarized Bayesian inference [Endorsed by: Objective Bayes Section]</b> <br>
+                            -	Alice Kirichenko (Warwick)<br>
+                            -	Jack Jewson (Pompeu Fabra)<br>
+                            -	Ryan Martin (NCSU)<br>
+                            -	Chris Holmes (discussant, Oxford)<br><br>
+                        <b>	What's new in sports analytics?</b> <br>
+                            -	Luke Bornn (Zelus Analytics)<br>
+                            -	Alexander Franks (University of California, Santa Barbara) <br>
+                            -	Guanyu Hu (University of Missouri - Columbia)<br><br>
+                        <b>	Bayesian Deep Learning</b> <br>
+                            -	Vincent Fortuin (ETH Zürich)<br>
+                            -	Andrew Wilson (New York University)<br>
+                            -	Yingzhen Li (Imperial College London)<br><br>
+                        <b> Advances in Bayesian factor models </b> <br>
+                            - Daniel Kowal (Rice University)<br>
+                            - Daniele Durante (Bocconi)<br>
+                            -  	Claire Gormley (University College Dublin)<br><br>
+                        <b> Savage Award (theory and methods)</b> <br>
+                    </p>              
+                  </div>
+            </div>
+            </div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>3:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Coffee Break</h4>
+              </div>
+            </div>
+
+         <div class="row schedule-item">
+              <div class="col-md-2"><time>3:30 PM</time></div>
+              <div class="col-md-10">
+                <a data-toggle="collapse" class="collapsed" href="#parallelsessions7"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions7" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	Bayesian Inference and sensitivity analysis for partially identified models</b> <br>
+                            -	Paul Gustafson (University of British Columbia)<br>
+                            -	Jiajing Zheng (University of California, Santa Barbara)<br>
+                            -	Antonio Linero (University of Texas at Austin)<br>
+                            -	Alex D'Amour (discussant, Google Research)<br><br>
+                        <b>	Recent Advances in Bayesian Causal Graphical Models and Functional Analysis for Imaging Data</b> <br>
+                            -	Donatello Telesca (University of California Los Angeles)<br>
+                            -	Yang Ni (Texas A&M University)<br>
+                            -	Sharmistha Guha (Texas A&M University)<br><br>
+                        <b>	Bayesian methods for local variable selection</b> <br>
+                            -	Marina Vannucci (Rice University)<br>
+                            -	Jian Kang (University of Michigan)<br>
+                            -	Veronika Rockova (Chicago Booth University)<br>
+                            -	David Rossell (discussant, Universitat Pompeu Fabra in Barcelona)<br><br>
+                        <b> Savage Award (applications)</b> <br>
+                    </p>              
+                  </div>              </div>
+            </div>
+    
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>7:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Poster Sessions</h4>
+              </div>
+            </div>
+              
+          </div>
+            
+<div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-5">
+          <div class="row schedule-item">
+              <div class="col-md-2"><time>8:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Registration</h4>
+              </div>
+            </div>
+              
+          <div class="row schedule-item">
+              <div class="col-md-2"><time>9:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Keynote Talk</h4>
+                <p>Speaker: Antonio Lijoi</p>
+              </div>
+            </div>
+              
+         <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Coffee Break</h4>
+              </div>
+            </div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Bayarri Lecture</h4>
+                <p>Speaker: Pierre Jacob</p>
+              </div>
+            </div>
+        
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Lunch Break</h4>
+              </div>
+            </div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>1:30 PM</time></div>
+              <div class="col-md-10">
+                <a data-toggle="collapse" class="collapsed" href="#parallelsessions8"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions8" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	Bayesian methods for design and analysis of clinical trials</b> <br> 
+                            -	Peter Mueller (University of Texas Austin)<br>
+                            -	Satoshi Morita (Kyoto University)<br>
+                            -	Shirin Golchi (McGill University)<br><br>
+                        <b>	Advances in Bayesian modelling of spatio-temporal extreme events</b> <br>
+                            -	Thomas Opitz (INRAE)<br>
+                            -	Benjamin Shaby (Colorado State University)<br>
+                            -	Likun Zhang (Lawrence Berkeley National Lab)<br><br>
+                        <b>	Scalable Bayesian methods for dependent data</b> <br>
+                            -	Deborshee Sen (University of Bath)<br>
+                            -	Rajarshi Guhaniyogi (Texas A&M University)<br>
+                            -	Sanvesh Srivastava (University of Iowa)<br><br>
+                        <b>	Advances in Bayesian modeling for functional data analysis [Endorsed by: Bayesian Nonparametrics Section]</b> <br>
+                            -	Lucia Paci (Università Cattolica del Sacro Cuore)<br>
+                            -	Huiyan Sang (Texas A&M University)<br>
+                            -	David Dunson (Duke University)<br><br>
+                        <b> Interventions in Complex Systems</b> <br>
+                            -	Nora Bello (Ohio State U.)<br>
+                            -	Andrew Cron (84.51°)<br>
+                            -	Tim Au (Google)<br>
+                    </p>              
+                  </div>
+            </div>
+            </div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>3:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Coffee Break</h4>
+              </div>
+            </div>
+
+         <div class="row schedule-item">
+              <div class="col-md-2"><time>3:30 PM</time></div>
+              <div class="col-md-10">
+                <a data-toggle="collapse" class="collapsed" href="#parallelsessions9"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions9" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	Bayesian Statistics in Pharmaceutical Drug Development</b> <br>
+                            -	Tony Pourmohamad (Genentech)<br>
+                            -	Paul Faya (Eli Lilly)<br>
+                            -	Dwaine Banton (Janssen)<br><br>
+                        <b>	Bayesian methods for network data</b> <br>
+                            -	Nathaniel Josephs (Yale School of Public Health)<br>
+                            -	Lizhen Lin (University of Notre Dame)<br>
+                            -	Arash Amini (UCLA)<br>
+                            -	Forrest Crawford (Yale School of Public Health)<br><br>
+                        <b>	Model-based clustering for complex data</b> <br>
+                            -	Raffaele Argiento (Università Cattolica del Sacro Cuore of Milano)<br>
+                            -	David Dahl (Brigham Young University)<br>
+                            -	Alessandra Guglielmi (Politecnico di Mliano)<br><br>
+                        <b>	Recent applications of scalable Bayesian inference using stochastic gradient MCMC [Endorsed by: Bayesian Computation Section]</b> <br>
+                            -	Ruqi Zhang (Cornell University)<br>
+                            -	Qifan Song (Purdue University)<br>
+                            -	Christopher Nemeth (Lancaster University) <br>
+                    </p>              
+                  </div>        
+             </div>
+            </div>
+    
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>7:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Poster Sessions</h4>
+              </div>
+            </div>
+              
+          </div>
+
+            
+<div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-6">
+          <div class="row schedule-item">
+              <div class="col-md-2"><time>8:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Registration</h4>
+              </div>
+            </div>
+              
+          <div class="row schedule-item">
+              <div class="col-md-2"><time>9:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Keynote Talk</h4>
+                <p>Speaker: David A. Stephens</p>
+              </div>
+            </div>
+              
+         <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Coffee Break</h4>
+              </div>
+            </div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
+              <div class="col-md-10">
+                <a data-toggle="collapse" class="collapsed" href="#parallelsessions10"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions10" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	Bayesian design in clinical trial and some fundamental issues</b> <br>
+                            -	Sujit Ghosh (North Carolina State University)<br>
+                            -	Sudipto Banerjee (University of California, Los Angeles)<br>
+                            -	Lindsay Berry (Berry Consultants)<br>
+                            -   Yuan Ji (discussant, University of Chicago)<br><br>
+                        <b>	Applications and Extensions of Dirichlet process Mixture models</b> <br>
+                            -	Gianluca Mastrantonio (Polytechnic of Turin)<br>
+                            -	Enrico Bibbon (Polytechnic of Turin)<br>
+                            -	Clara Grazian (University of New South Wales)<br><br>
+                        <b>	Some recent works on Gaussian Markov random fields and related Bayesian methods for estimation, learning, and inference </b> <br>
+                            -	María Dolores Ugarte (Universidad Pública de Navarra)<br>
+                            -	Marcos Prates (Universidade Federal de Minas Gerais)<br>
+                            -	Ying MacNab (University of British Columbia)<br><br>
+                        <b>	Model Uncertainty and Combination in Prediction and Decision Problems: Bayesian Frontiers</b> <br>
+                            -	Ken McAlinn (Temple University)<br>
+                            -	James Mitchell (Federal Reserve Bank of Cleveland)<br>
+                            -	Emily Tallman (Duke University)<br>
+                    </p>              
+                  </div>  
+            </div>
+            </div>
+        
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Lunch Break</h4>
+              </div>
+            </div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>1:30 PM</time></div>
+              <div class="col-md-10">
+                <a data-toggle="collapse" class="collapsed" href="#parallelsessions11"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions11" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	Bayesian modelling of human migration </b> <br>
+                            -	Nathan G. Welch (University of Washington)<br>
+                            -	Emily R. Barker (University of Southampton)<br>
+                            -	Jason Hilton and Martin Hinsch (University of Southampton)<br>
+                            -	Arkadiusz Wiśniowski (discussant, University of Manchester)<br><br>
+                        <b>	Bayesian statistics within mixed (qualitative & quantitative) methods</b><br>
+                            -   Daniel Harasim (Swiss Federal Institute of Technology) <br>
+                            -   Daniela Vasco (Griffith University) <br>
+                            -   Samantha Low-Choy (Griffith University)<br><br>
+                        <b>	Recent Advancements in Bayesian Methods for Statistical Data Privacy</b> <br>
+                            -	Terrence Savitsky (U.S. Bureau of Labor Statistics)<br>
+                            -	Harrison Quick (Drexel University)<br>
+                            -	Claire Bowen (Urban Institute)<br>
+                            -   Jerry Reiter (discussant, Duke University)<br><br>
+                        <b>	Bayesian modelling with Copulas</b> <br>
+                            -	Vianey Leos-Barajas (Toronto)<br>
+                            -	Fabrizio Leisen  (Nottingham)<br>
+                            -	Luis Enrique Nieto Barajas (ITAM, Mexico City)<br><br>
+                        <b>Latent Variable Models in High-dimensional Data</b> <br>
+                            -	Georgia Papadogeorgou (University of Florida)<br>
+                            -	Weining Shen (University of California, Irvine)<br>
+                            -	Zehang Richard Li (University of California, Santa Cruz)<br>
+                    </p>              
+                  </div>      
+            </div>
+            </div>
+              
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>3:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Coffee Break</h4>
+              </div>
+            </div>
+
+         <div class="row schedule-item">
+              <div class="col-md-2"><time>3:30 PM</time></div>
+              <div class="col-md-10">
+                <a data-toggle="collapse" class="collapsed" href="#parallelsessions12"><font size="+1"><b>Parallel Sessions</b> </font></a>
+                  <div id="parallelsessions12" class="collapse" data-parent="#faq-list">
+                    <p>
+                        <b>	Recent developments in Bayesian education</b> <br>
+                            -	Mine Dogucu (University of California Irvine)<br>
+                            -	Allen Downey (Olin College)<br>
+                            -	Ben Lambert (University of Oxford)<br>
+                            -   Jim Albert (discussant, Bowling Green State University)<br><br>
+                        <b>	Gaussian Process Under Manifold Assumptions: A Promising Prior for High-Dimensional Nonparametric Regression Without Sparsity?</b> <br>
+                            -	Cheng Li (National University of Singapore)<br>
+                            -	Ilsang Ohn (University of Notre Dame)<br>
+                            -	Nan Wu (Duke University)<br><br>
+                        <b>	Challenges in random probability models</b> <br>
+                            -	Fernando Quintana (Universidad Catolica de Chile)<br>
+                            -	Garritt Page (Brigham Young University)<br>
+                            -	Mario Beraha (Politecnico di Milano and Università di Bologna)<br><br>
+                        <b>	Bayesian experimental design for causal inference</b> <br>
+                            -	Federico Castelletti (Universita' Cattolica del Sacro Cuore)<br>
+                            -	Julius von Kügelgen (Max Planck Institute for Intelligent Systems, University of Cambridge)<br>
+                            -	Jeffrey Miller (Harvard T.H. Chan School of Public Health)<br>
+                    </p>              
+                  </div>  
+             </div>
+            </div>
+    
+        <div class="row schedule-item">
+              <div class="col-md-2"><time>6:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Prize Ceremony and Banquette</h4>
+              </div>
+            </div>
+              
+          </div>
 
           <!-- Schdule Day 3 
           <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
